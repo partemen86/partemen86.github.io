@@ -5939,8 +5939,8 @@ textarea.form-control.is-invalid {
   height: 33.333333%;
 }
 
-.h-40 {
-  height: 10rem;
+.h-60 {
+  height: 15rem;
 }
 
 .h-\[calc\(100\%-theme\(\'spacing\.1\'\)\)\] {
@@ -5953,18 +5953,6 @@ textarea.form-control.is-invalid {
 
 .h-full {
   height: 100%;
-}
-
-.h-56 {
-  height: 14rem;
-}
-
-.h-64 {
-  height: 16rem;
-}
-
-.h-60 {
-  height: 15rem;
 }
 
 .w-10 {
@@ -7062,12 +7050,12 @@ textarea.form-control.is-invalid {
   padding: 0px;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-4 {
   padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-4 {
@@ -7105,6 +7093,11 @@ textarea.form-control.is-invalid {
   padding-right: 8rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -7128,11 +7121,6 @@ textarea.form-control.is-invalid {
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .pt-16 {
@@ -7163,6 +7151,10 @@ textarea.form-control.is-invalid {
   padding-bottom: 5rem;
 }
 
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -7173,18 +7165,6 @@ textarea.form-control.is-invalid {
 
 .pb-5 {
   padding-bottom: 1.25rem;
-}
-
-.pb-64 {
-  padding-bottom: 16rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
 }
 
 .text-left {
@@ -7385,14 +7365,14 @@ textarea.form-control.is-invalid {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.text-gray-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
-}
-
 .text-bastionblue-500 {
   --tw-text-opacity: 1;
   color: rgb(51 80 222 / var(--tw-text-opacity));
+}
+
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -8064,24 +8044,12 @@ textarea.form-control.is-invalid {
     display: none;
   }
 
-  .lg\:h-32 {
-    height: 8rem;
-  }
-
-  .lg\:h-16 {
-    height: 4rem;
-  }
-
   .lg\:h-14 {
     height: 3.5rem;
   }
 
-  .lg\:w-24 {
-    width: 6rem;
-  }
-
-  .lg\:w-16 {
-    width: 4rem;
+  .lg\:h-32 {
+    height: 8rem;
   }
 
   .lg\:w-14 {
@@ -8133,14 +8101,6 @@ textarea.form-control.is-invalid {
   .lg\:pt-16 {
     padding-top: 4rem;
   }
-
-  .lg\:pb-28 {
-    padding-bottom: 7rem;
-  }
-
-  .lg\:pb-16 {
-    padding-bottom: 4rem;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -8157,21 +8117,10 @@ textarea.form-control.is-invalid {
   }
 }
 
-@media (min-width: 1536px) {
-  .\32xl\:mx-48 {
-    margin-left: 12rem;
-    margin-right: 12rem;
-  }
-}
-
 @media (min-width: 1800px) {
   .\34xl\:mx-48 {
     margin-left: 12rem;
     margin-right: 12rem;
-  }
-
-  .\34xl\:rounded-3xl {
-    border-radius: 1.5rem;
   }
 
   .\34xl\:rounded-xl {
