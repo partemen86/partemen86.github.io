@@ -38,4 +38,5 @@ module.exports = {
     require("tw-elements/dist/plugin"),
     require("tailwind-scrollbar-hide")
   ],
+  enabled: process.env.NODE_ENV === "production"
 }
