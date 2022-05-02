@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+    <!-- End Favicon  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pavlo Artemenko</title>
+    <link
+      rel="stylesheet"
+      href="./dist/main.css"
+    />
+    <script src="https://kit.fontawesome.com/7169100a2d.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body class="bg-blue-300">
+    <!-- Contact Buttons -->
+    <div class="flex flex-col fixed z-50 w-10 md:w-12 lg:w-14 text-2xl space-y-2 top-3 right-3">
+      <a
+        href="#"
+        id="menu"
+        class="
+          flex
+          h-10
+          md:h-12
+          lg:h-14
+          items-center
+          shadow-md
+          justify-center
+          font-medium
+          rounded-md
+          text-white
+          bg-bastionblue-500
+          hover:bg-bastionorange
+        "
+      >
+      <i class="fas fa-bars"></i>
+      </a>
+      <a
+        href="mailto:hello@pavloartemenko.me"
+        class="
+          menuItem
+          flex
+          md:h-12
+          lg:h-14
+          h-10
+          items-center
+          shadow-md
+          justify-center
+          border border-transparent
+          font-medium
+          rounded-full
+          text-white
+          bg-bastionblue-500
+          hover:bg-bastionorange
+        "
+        target="_blank"
+      >
+      <i class="fas fa-envelope"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/"
+        class="
+          menuItem
+          flex
+          md:h-12
+          lg:h-14
+          h-10
+          items-center
+          shadow-md
+          justify-center
+          border border-transparent
+          font-medium
+          rounded-full
+          text-white
+          bg-bastionblue-500
+          hover:bg-bastionorange
+        "
+        target="_blaank"
+      >
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a
+        href="https://github.com/partemen86"
+        class="
+          menuItem
+          flex
+          h-10
+          md:h-12
+          lg:h-14
+          items-center
+          shadow-md
+          justify-center
+          border border-transparent
+          font-medium
+          rounded-full
+          text-white
+          bg-bastionblue-500
+          hover:bg-bastionorange
+        "
+        target="_blank"
+      >
+        <i class="fab fa-github"></i>
+      </a>
+      <a
+        href="assets/Resume.pdf"
+        target="_blank"
+        class="
+          menuItem
+          flex
+          md:h-12
+          lg:h-14
+          h-10
+          items-center
+          shadow-md
+          justify-center
+          border border-transparent
+          font-medium
+          rounded-full
+          text-white
+          bg-bastionblue-500
+          hover:bg-bastionorange
+        "
+      >
+        <i class="fas fa-file-alt"></i>
+      </a>
+    </div>
+
+    <!-- Header -->
+    <div class="relative pt-16 bg-white">
+      <div
+        class="hidden absolute top-0 inset-x-0 h-1/2 bg-white lg:block"
+        aria-hidden="true"
+      ></div>
+      <div class="max-w-7xl mx-auto bg-gray-200 lg:bg-transparent lg:px-8">
+        <div class="lg:grid lg:grid-cols-12">
+          <div
+            class="
+              relative
+              z-10
+              lg:col-start-1
+              lg:row-start-1
+              lg:col-span-4
+              lg:py-16
+              lg:bg-transparent
+            "
+          >
+            <div
+              class="absolute inset-x-0 h-1/2 bg-white lg:hidden"
+              aria-hidden="true"
+            ></div>
+            <div class="max-w-sm mx-auto px-4 sm:px-6 lg:p-0">
+              <div class="aspect-w-6 aspect-h-7">
+                <img
+                  class="object-cover object-center rounded-full shadow-2xl"
+                  src="assets/pavlo.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="
+              relative
+              bg-gray-200
+              lg:col-start-3
+              lg:row-start-1
+              lg:col-span-10
+              lg:rounded-3xl
+              lg:grid lg:grid-cols-10
+              lg:items-center
+            "
+          >
+            <div
+              class="
+                relative
+                max-w-md
+                mx-auto
+                py-12
+                px-4
+                sm:max-w-3xl
+                sm:py-16
+                sm:px-6
+                lg:max-w-none
+                lg:p-0
+                lg:col-start-4 lg:col-span-6
+              "
+            >
+              <h2
+                class="text-3xl font-extrabold text-gray-900"
+                id="join-heading"
+              >
+                Pavlo Artemenko
+              </h2>
+              <h4 class="text-xl text-gray-500 mt-1">
+                Madison, CT
+              </h4>
+              <p class="text-lg text-gray-900 mt-6">
+                I'm a full-stack software engineer currently based in 
+                Madison, Connecticut, with experience in
+                JavaScript/Node.js, React/Redux, Ruby, AWS, Docker, PostgreSQL, and MongoDB. 
+              </p>
+              <p class="text-lg text-gray-900 mt-6">
+                Most recently, I built
+                <a
+                  class="text-bastionblue-500 hover:text-bastionorange"
+                  href="https://bastion-baas.github.io/"
+                  target="_blank"
+                  >Bastion</a
+                >, an open-source
+                Backend-as-a-Service integrating with AWS. 
+              </p>
+              <a
+                class="
+                  mt-6
+                  block
+                  w-full
+                  py-3
+                  px-5
+                  text-center
+                  bg-midnightblue
+                  border border-transparent
+                  rounded-md
+                  shadow-md
+                  text-base
+                  font-medium
+                  hover:opacity-70
+                  sm:inline-block
+                  sm:w-auto
+                "
+                href="assets/Katherine_Beck_Resume.pdf"
+                target="_blank"
+                ><span class="text-xl mr-3"
+                  ><i class="fas fa-file-alt"></i></span
+                >Resume</a
+              >
+              <a
+                class="
+                  mt-6
+                  sm:mx-2
+                  block
+                  w-full
+                  py-3
+                  px-5
+                  text-center
+                  bg-grouparooblue
+                  border border-transparent
+                  rounded-md
+                  shadow-md
+                  text-base
+                  font-medium
+                  hover:bg-yellow-300
+                  sm:inline-block
+                  sm:w-auto
+                "
+                href="https://bastion-baas.github.io/case-study.html"
+                target="_blank"
+                >Read Bastion Case Study</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bastion -->
+    <div class="bg-pink-400 4xl:mx-48 4xl:rounded-xl">
+      <div class="flex items-center justify-center py-16 pl-8">
+        <img src="./assets/logo_color.png" class="w-48 pl-8"/>
+        <p class="text-center text-4xl text-gray-900 pr-12">Backend-as-a-Service Solution</p>
+      </div>
+      
+      <div id="carouselIndicators" class="carousel carousel-dark slide relative" data-bs-ride="carousel">
+        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+          <button
+            type="button"
+            data-bs-target="#carouselIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner relative w-full overflow-scroll scrollbar-hide">
+          <div class="carousel-item active float-left w-full pb-2">
+            <div class="flex flex-col justify-center">
+                <div class="shrink-0">
+                  <img
+                    src="./assets/8_bastion_components.png"
+                    class="block h-xl sm:h-2xl mx-auto pr-16 pl-8 pb-12"
+                    alt="Bastion Overview"
+                  />
+                  <p class="block px-8 sm:px-32 text-center text-lg sm:text-xl md:text-2xl h-48 lg:h-32">
+                    Bastion is an open-source solution that provides a customizeable and scaleable backend, deployable within minutes.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item float-left w-full pb-2">
+            <div class="flex flex-col justify-center">
+                <div class="shrink-0">
+                  <img
+                    src="./assets/7_compare_baas_all.png"
+                    class="block h-xl sm:h-2xl mx-auto pr-16 pb-12"
+                    alt="Bastion Overview"
+                  />
+                  <p class="block px-8 sm:px-32 text-center text-lg sm:text-xl md:text-2xl h-48 lg:h-32">
+                    Bastion grants you full ownership and control of your backend, and integrates with AWS to provide flexibility and scaleability on demand.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item float-left w-full pb-2">
+            <div class="flex flex-col justify-center">
+                <div class="shrink-0">
+                  <img
+                    src="./assets/bastion_dashboard.png"
+                    class="block h-xl sm:h-2xl mx-auto pb-12 rounded-lg"
+                    alt="Bastion Dashboard and CLI"
+                  />
+                  <p class="block px-8 sm:px-32 text-center text-lg sm:text-xl md:text-2xl h-48 lg:h-32">
+                    Users can deploy and manage multiple backends. 
+                    Cloud code functionality provided using AWS Lambda allows those backends to be customized to fit the needs of each project.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+          type="button"
+          data-bs-target="#carouselIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+          type="button"
+          data-bs-target="#carouselIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="text-center pb-12 px-32 sm:px-4">
+        <a
+          class="
+            mt-6
+            sm:mx-2
+            block
+            w-full
+            py-3
+            px-5
+            text-center
+            bg-white
+            border border-transparent
+            rounded-md
+            shadow-md
+            text-base
+            font-medium
+            hover:bg-yellow-300
+            sm:inline-block
+            sm:w-auto
+          "
+          href="https://bastion-baas.github.io/"
+          target="_blank"
+          >Read Bastion Case Study</a
+        >
+        <a
+          class="
+            mt-6
+            sm:mx-2
+            block
+            w-full
+            py-3
+            px-5
+            text-center
+            bg-white
+            border border-transparent
+            rounded-md
+            shadow-md
+            text-base
+            font-medium
+            hover:bg-yellow-300
+            sm:inline-block
+            sm:w-auto
+          "
+          href="https://www.youtube.com/watch?v=3-gb737s42Y&t=2142s"
+          target="_blank"
+          >Watch the Presentation</a
+        >
+      </div>
+    </div>
+
+      <!-- Other Projects -->
+      <div class="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-16 pb-32 lg:px-8 bg-white">
+        <div class="absolute inset-0">
+          <div class="bg-white h-1/3 sm:h-2/3"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto">
+          <div class="text-center">
+            <h2
+              class="
+                text-3xl
+                tracking-tight
+                font-extrabold
+                text-gray-900
+                sm:text-4xl
+              "
+            >
+              Other Projects
+            </h2>
+          </div>
+          <div
+            class="
+              mt-12
+              max-w-lg
+              mx-auto
+              grid
+              gap-10
+              xl:grid-cols-3
+              lg:grid-cols-3
+              md:grid-cols-2
+              md:max-w-none
+            "
+          >
+          
+            <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+              <div class="flex-shrink-0 p-4 flex justify-center bg-gray-200">
+                <img
+                  class="h-60 drop-shadow-lg filter object-scale-down"
+                  src="assets/Mellow.png"
+                  alt=""
+                />
+              </div>
+              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                <div class="flex-1">
+                  <p class="text-xl font-semibold text-gray-900 mt-2">Mellow</p>
+                  <p class="mt-3 text-base text-gray-500">
+                    A kanban board productivity application for organizing and managing tasks.
+                  </p>
+                  <p class="mt-3 text-base text-airbytepurple">
+                    Built with React/Redux, Node.js, Express, and MongoDB, 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+              <div class="flex-shrink-0 p-4 flex justify-center bg-gray-200">
+                <img
+                  class="h-60 drop-shadow-lg filter object-scale-down"
+                  src="assets/TodoApp.png"
+                  alt=""
+                />
+              </div>
+              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                <div class="flex-1">
+                  <p class="text-xl font-semibold text-gray-900 mt-2">
+                    Todo List 
+                  </p>
+                  <p class="mt-3 text-base text-gray-500">
+                    An interactive todo list manager. Node.js, Handlebars.js, and an Express.js API.
+                  </p>
+                  <p class="mt-3 text-base text-airbytepurple">
+                    Node.js/Express, Handlebars, HTML/CSS
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+              <div class="flex-shrink-0 p-4 flex justify-center bg-gray-200">
+                <img
+                  class="h-60 drop-shadow-lg filter object-scale-down"
+                  src="./assets/pool.png"
+                  alt=""
+                />
+              </div>
+              <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                <div class="flex-1">
+                  <p class="text-xl font-semibold text-gray-900 mt-2">
+                    Request Pool
+                  </p>
+                  <p class="mt-3 text-base text-gray-500">
+                    RequestBin clone for inspecting and debugging webhooks and HTTP requests.
+                  </p>
+                  <p class="mt-3 text-base">
+                    Node.js/Express, MongoDB, PostgreSQL, Webhooks
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    <!-- Footer -->
+    <div class="">
+      <div class="mx-auto text-center py-8 px-4 sm:py-20 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+          <span class="block">Let's Connect!</span>
+        </h2>
+        <p class="mt-4 mb-4 text-lg leading-6 text-gray-200">
+          I am looking for my next opportunity! Please get in touch if you think
+          I would be a good fit for your team.
+        </p>
+        <div class="flex items-center justify-center flex-wrap">
+          <a
+            href="mailto:partemen86@gmail.com"
+            class="
+              w-2/5
+              mt-4
+              mx-2
+              inline-flex
+              items-center
+              shadow-md
+              justify-center
+              px-5
+              py-2
+              border border-transparent
+              font-medium
+              rounded-md
+              text-midnightblue
+              bg-white
+              hover:bg-gray-300
+              sm:w-auto
+            "
+            target="_blank"
+          >
+            <span class="text-xl mr-3"><i class="fas fa-envelope"></i></span
+            >Email
+          </a>
+          <a
+            href="https://www.linkedin.com/in/katherine-m-beck"
+            class="
+              w-2/5
+              mt-4
+              mx-2
+              inline-flex
+              items-center
+              shadow-md
+              justify-center
+              px-5
+              py-2
+              border border-transparent
+              font-medium
+              rounded-md
+              text-midnightblue
+              bg-white
+              hover:bg-gray-300
+              sm:w-auto
+            "
+            target="_blank"
+          >
+            <span class="text-xl mr-3"><i class="fab fa-linkedin"></i></span
+            >LinkedIn
+          </a>
+          <a
+            href="https://github.com/partemen86"
+            class="
+              w-2/5
+              mt-4
+              mx-2
+              inline-flex
+              items-center
+              shadow-md
+              justify-center
+              px-5
+              py-2
+              border border-transparent
+              font-medium
+              rounded-md
+              text-midnightblue
+              bg-white
+              hover:bg-gray-300
+              sm:w-auto
+            "
+            target="_blank"
+          >
+            <span class="text-xl mr-3"><i class="fab fa-github"></i></span
+            >GitHub
+          </a>
+          <a
+            href="assets/Katherine_Beck_Resume.pdf"
+            target="_blank"
+            class="
+              w-2/5
+              mt-4
+              mx-2
+              inline-flex
+              items-center
+              shadow-md
+              justify-center
+              px-5
+              py-2
+              border border-transparent
+              font-medium
+              rounded-md
+              text-midnightblue
+              bg-white
+              hover:bg-gray-300
+              sm:w-auto
+            "
+          >
+            <span class="text-xl mr-3"><i class="fas fa-file-alt"></i></span
+            >Resume
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./node_modules/tw-elements/dist/js/index.min.js"></script>
+  </body>
+</html>
