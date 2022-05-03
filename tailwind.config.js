@@ -30,6 +30,12 @@ module.exports = {
           "500":"#3350DE"
         },
         "bastionorange": "#E63300",
+        "owlblue": "#0336FF",
+        "owlyellow": "#FFDE03",
+        "teal": "#7DE6FC",
+        "tealcomp":"#FC937D",
+        "tealoffcomp": "#FCD37D",
+        "test": "#47D59C"
       }
     },
   },
@@ -38,5 +44,4 @@ module.exports = {
     require("tw-elements/dist/plugin"),
     require("tailwind-scrollbar-hide")
   ],
-  enabled: process.env.NODE_ENV === "production"
 }

@@ -30,7 +30,7 @@
     <script src="https://kit.fontawesome.com/7169100a2d.js" crossorigin="anonymous"></script>
     
   </head>
-  <body class="bg-blue-300">
+  <body class="bg-gray-300">
     <!-- Contact Buttons -->
     <div class="flex flex-col fixed z-50 w-10 md:w-12 lg:w-14 text-2xl space-y-2 top-3 right-3">
       <a
@@ -144,13 +144,13 @@
     </div>
 
     <!-- Header -->
-    <div class="relative pt-16 bg-white">
+    <div class="relative bg-white">
       <div
-        class="hidden absolute top-0 inset-x-0 h-1/2 bg-white lg:block"
+        class="hidden absolute top-0 inset-x-0 bg-white lg:block"
         aria-hidden="true"
       ></div>
-      <div class="max-w-7xl mx-auto bg-gray-200 lg:bg-transparent lg:px-8">
-        <div class="lg:grid lg:grid-cols-12">
+      <div class="max-w-7xl mx-auto lg:bg-transparent lg:px-8">
+        <div class="lg:grid lg:grid-cols-12 lg:py-16">
           <div
             class="
               relative
@@ -180,7 +180,9 @@
           <div
             class="
               relative
-              bg-gray-200
+              pt-8
+              pb-16
+              bg-teal
               lg:col-start-3
               lg:row-start-1
               lg:col-span-10
@@ -198,7 +200,7 @@
                 px-4
                 sm:max-w-3xl
                 sm:py-16
-                sm:px-6
+                sm:px-12
                 lg:max-w-none
                 lg:p-0
                 lg:col-start-4 lg:col-span-6
@@ -236,13 +238,13 @@
                   py-3
                   px-5
                   text-center
-                  bg-midnightblue
+                  bg-tealcomp 
+                  hover:bg-tealoffcomp
                   border border-transparent
                   rounded-md
                   shadow-md
                   text-base
                   font-medium
-                  hover:opacity-70
                   sm:inline-block
                   sm:w-auto
                 "
@@ -261,13 +263,13 @@
                   py-3
                   px-5
                   text-center
-                  bg-grouparooblue
+                  bg-tealcomp
                   border border-transparent
                   rounded-md
                   shadow-md
                   text-base
                   font-medium
-                  hover:bg-yellow-300
+                  hover:bg-tealoffcomp
                   sm:inline-block
                   sm:w-auto
                 "
@@ -282,7 +284,7 @@
     </div>
 
     <!-- Bastion -->
-    <div class="bg-pink-400 4xl:mx-48 4xl:rounded-xl">
+    <div class="bg-gradient-to-r from-rose-400 to-orange-300 4xl:mx-48 4xl:rounded-xl">
       <div class="flex items-center justify-center py-16 pl-8">
         <img src="./assets/logo_color.png" class="w-48 pl-8"/>
         <p class="text-center text-4xl text-gray-900 pr-12">Backend-as-a-Service Solution</p>
@@ -532,10 +534,10 @@
     <!-- Footer -->
     <div class="">
       <div class="mx-auto text-center py-8 px-4 sm:py-20 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+        <h2 class="text-3xl font-extrabold sm:text-4xl">
           <span class="block">Let's Connect!</span>
         </h2>
-        <p class="mt-4 mb-4 text-lg leading-6 text-gray-200">
+        <p class="mt-4 mb-4 text-lg leading-6">
           I am looking for my next opportunity! Please get in touch if you think
           I would be a good fit for your team.
         </p>
