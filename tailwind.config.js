@@ -35,7 +35,7 @@ module.exports = {
         "teal": "#7DE6FC",
         "tealcomp":"#FC937D",
         "tealoffcomp": "#FCD37D",
-        "test": "#47D59C"
+        "test": "#28cfd7"
       }
     },
   },
