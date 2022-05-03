@@ -7141,6 +7141,14 @@ textarea.form-control.is-invalid {
   padding-right: 0.25rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .pl-8 {
   padding-left: 2rem;
 }
@@ -7183,14 +7191,6 @@ textarea.form-control.is-invalid {
 
 .pb-5 {
   padding-bottom: 1.25rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
 }
 
 .text-left {
@@ -7394,11 +7394,6 @@ textarea.form-control.is-invalid {
 .text-bastionblue-500 {
   --tw-text-opacity: 1;
   color: rgb(51 80 222 / var(--tw-text-opacity));
-}
-
-.text-gray-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -7976,6 +7971,11 @@ textarea.form-control.is-invalid {
     padding-bottom: 4rem;
   }
 
+  .sm\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .sm\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -7989,11 +7989,6 @@ textarea.form-control.is-invalid {
   .sm\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-
-  .sm\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .sm\:text-xl {
@@ -8027,11 +8022,6 @@ textarea.form-control.is-invalid {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .md\:text-2xl {
