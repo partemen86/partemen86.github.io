@@ -632,6 +632,66 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-aspect-h: var(--height);
 }
 
+.aspect-w-4 {
+  position: relative;
+  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  --tw-aspect-w: 4;
+}
+
+.aspect-w-4 > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.aspect-h-8 {
+  --tw-aspect-h: 8;
+}
+
+.aspect-w-3 {
+  position: relative;
+  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  --tw-aspect-w: 3;
+}
+
+.aspect-w-3 > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.aspect-h-4 {
+  --tw-aspect-h: 4;
+}
+
+.aspect-w-5 {
+  position: relative;
+  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  --tw-aspect-w: 5;
+}
+
+.aspect-w-5 > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.aspect-h-6 {
+  --tw-aspect-h: 6;
+}
+
 .aspect-none {
   position: static;
   padding-bottom: 0;
@@ -5955,6 +6015,10 @@ textarea.form-control.is-invalid {
   height: 100%;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -5971,6 +6035,18 @@ textarea.form-control.is-invalid {
   width: 40%;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -5985,6 +6061,20 @@ textarea.form-control.is-invalid {
 
 .max-w-lg {
   max-width: 32rem;
+}
+
+.max-w-xs {
+  max-width: 20rem;
+}
+
+.max-w-min {
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content;
+}
+
+.max-w-\[50\%\] {
+  max-width: 50%;
 }
 
 .flex-1 {
@@ -6774,6 +6864,10 @@ textarea.form-control.is-invalid {
   border-radius: 0.25rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .rounded-t {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -7193,6 +7287,10 @@ textarea.form-control.is-invalid {
   padding-bottom: 1.25rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -7364,12 +7462,24 @@ textarea.form-control.is-invalid {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.leading-3 {
+  line-height: .75rem;
+}
+
 .leading-6 {
   line-height: 1.5rem;
 }
 
 .leading-tight {
   line-height: 1.25;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .tracking-tight {
@@ -7814,6 +7924,16 @@ textarea.form-control.is-invalid {
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-teal:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(125 230 252 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-tealcomp:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 147 125 / var(--tw-bg-opacity));
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -7953,12 +8073,20 @@ textarea.form-control.is-invalid {
     height: 66.666667%;
   }
 
+  .sm\:h-12 {
+    height: 3rem;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
 
   .sm\:max-w-3xl {
     max-width: 48rem;
+  }
+
+  .sm\:max-w-xs {
+    max-width: 20rem;
   }
 
   .sm\:px-6 {
@@ -8012,12 +8140,24 @@ textarea.form-control.is-invalid {
     height: 3rem;
   }
 
+  .md\:h-6 {
+    height: 1.5rem;
+  }
+
   .md\:w-12 {
     width: 3rem;
   }
 
   .md\:max-w-none {
     max-width: none;
+  }
+
+  .md\:max-w-sm {
+    max-width: 24rem;
+  }
+
+  .md\:max-w-xs {
+    max-width: 20rem;
   }
 
   .md\:grid-cols-2 {
@@ -8085,6 +8225,10 @@ textarea.form-control.is-invalid {
 
   .lg\:max-w-none {
     max-width: none;
+  }
+
+  .lg\:max-w-sm {
+    max-width: 24rem;
   }
 
   .lg\:grid-cols-12 {
