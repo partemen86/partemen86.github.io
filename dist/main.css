@@ -5955,6 +5955,10 @@ textarea.form-control.is-invalid {
   height: 100%;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -7949,6 +7953,10 @@ textarea.form-control.is-invalid {
 
   .sm\:h-2\/3 {
     height: 66.666667%;
+  }
+
+  .sm\:h-48 {
+    height: 12rem;
   }
 
   .sm\:w-auto {
