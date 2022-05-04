@@ -1,2 +1,2 @@
 # partemen86.github.io
-Personal Website
+Personal Website built with HTML, tailwindcss, and tailwind-elements.
