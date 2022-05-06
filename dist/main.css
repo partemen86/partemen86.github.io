@@ -5799,10 +5799,6 @@ textarea.form-control.is-invalid {
   margin-top: 1.5rem;
 }
 
-.mr-3 {
-  margin-right: 0.75rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -5821,6 +5817,10 @@ textarea.form-control.is-invalid {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
 }
 
 .box-border {
@@ -5931,16 +5931,12 @@ textarea.form-control.is-invalid {
   height: 20rem;
 }
 
-.h-48 {
-  height: 12rem;
+.h-60 {
+  height: 15rem;
 }
 
 .h-1\/3 {
   height: 33.333333%;
-}
-
-.h-60 {
-  height: 15rem;
 }
 
 .h-\[calc\(100\%-theme\(\'spacing\.1\'\)\)\] {
@@ -5955,20 +5951,16 @@ textarea.form-control.is-invalid {
   height: 100%;
 }
 
-.h-56 {
-  height: 14rem;
-}
-
 .w-10 {
   width: 2.5rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-48 {
   width: 12rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-2\/5 {
@@ -7084,29 +7076,19 @@ textarea.form-control.is-invalid {
   padding-right: 1rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .px-8 {
@@ -7117,6 +7099,16 @@ textarea.form-control.is-invalid {
 .px-32 {
   padding-left: 8rem;
   padding-right: 8rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .py-8 {
@@ -7149,6 +7141,11 @@ textarea.form-control.is-invalid {
   padding-right: 0.25rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
 }
@@ -7159,10 +7156,6 @@ textarea.form-control.is-invalid {
 
 .pl-8 {
   padding-left: 2rem;
-}
-
-.pr-12 {
-  padding-right: 3rem;
 }
 
 .pb-2 {
@@ -7277,14 +7270,14 @@ textarea.form-control.is-invalid {
   line-height: 1.75rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-xs {
@@ -7370,10 +7363,6 @@ textarea.form-control.is-invalid {
 .stacked-fractions {
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
-}
-
-.leading-3 {
-  line-height: .75rem;
 }
 
 .leading-6 {
@@ -7951,12 +7940,12 @@ textarea.form-control.is-invalid {
     height: 24rem;
   }
 
-  .sm\:h-2\/3 {
-    height: 66.666667%;
-  }
-
   .sm\:h-48 {
     height: 12rem;
+  }
+
+  .sm\:h-2\/3 {
+    height: 66.666667%;
   }
 
   .sm\:w-auto {
